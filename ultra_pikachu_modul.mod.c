@@ -4,6 +4,7 @@
 
 MODULE_INFO(vermagic, VERMAGIC_STRING);
 MODULE_INFO(name, KBUILD_MODNAME);
+
 __visible struct module __this_module
 __attribute__((section(".gnu.linkonce.this_module"))) = {
 	.name = KBUILD_MODNAME,
@@ -14,7 +15,7 @@ __attribute__((section(".gnu.linkonce.this_module"))) = {
 	.arch = MODULE_ARCH_INIT,
 };
 
-#ifdef RETPOLINE
+#ifdef CONFIG_RETPOLINE
 MODULE_INFO(retpoline, "Y");
 #endif
 
@@ -24,4 +25,4 @@ __attribute__((section(".modinfo"))) =
 "depends=";
 
 
-MODULE_INFO(srcversion, "8F5A889B4381422F668A3D0");
+MODULE_INFO(srcversion, "CBFB2B3A07F3225E30DF855");

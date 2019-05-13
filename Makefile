@@ -1,3 +1,4 @@
+CONFIG_MODULE_SIG=n
 obj-m := ultra_pikachu_modul.o # -m steht für Modul, .o für den Object File dass wir als Modul Kompillieren wollen, bevor der linker es als ein Executable aufbaut.
 
 # all:

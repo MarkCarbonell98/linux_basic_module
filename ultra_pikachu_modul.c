@@ -6,7 +6,7 @@
 #include <linux/module.h> // Notwendig für alle Module
 #include <linux/init.h> // Notwendig für alle andere Macros
 
-MODULE_LICENSE("GLP");
+MODULE_LICENSE("GPL");
 
 MODULE_AUTHOR("Marcos Carbonell");
 MODULE_DESCRIPTION(" Das einfachste Linux Modul ");
